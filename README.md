@@ -1,6 +1,6 @@
 # moss
 
-A small preemptive kernel for [flint](../flint-traps), my RV32I core. It runs
+A small preemptive kernel for [flint](https://github.com/andval07/flint), my RV32I core. It runs
 the same image on the Python instruction set simulator and on the Verilog
 model, and the tests check that both print the same thing.
 
