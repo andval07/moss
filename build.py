@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-FLINT_DIR = Path(os.environ.get("FLINT_DIR", ROOT.parent / "flint-traps"))
+FLINT_DIR = Path(os.environ.get("FLINT_DIR", ROOT.parent / "flint"))
 sys.path.insert(0, str(FLINT_DIR))
 
 from flint.iss import Iss  # noqa: E402
