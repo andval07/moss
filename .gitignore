@@ -1,0 +1,6 @@
+.venv/
+build/
+__pycache__/
+.pytest_cache/
+# personal notes, not part of the project
+SPIEGAZIONE.md
